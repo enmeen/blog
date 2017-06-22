@@ -8,6 +8,7 @@
             </ul>
         </div>
     </nav>
+
 </template>
 <script type="text/javascript">
 
@@ -34,7 +35,7 @@ export default {
 }
 </script>
 <style lang='less'>
-@import "../less/base.css";
+
 #nav {
     width: 100%;
     background-color: #802626;

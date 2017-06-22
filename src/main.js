@@ -1,19 +1,33 @@
 import Vue from 'vue'
-/*import App from './components/App.vue'*/
-import Nav from './components/Nav.vue'
-import Main from './components/Main.vue'
+import VueRouter from 'vue-router'
+import WrapBox from './components/Wrap.vue'
 
-/*new Vue({
-  el: '#app',
-  render: a => a(App)
-})*/
+/*Vue.use(VueRouter);
+// 提出到一个单独的文件
+const routes = [
+    /!*{path: '/', component: Home},
+    {path: '/content', component: Content},
+    {path: '/info', component: Info},*!/
+];
+const router = new VueRouter({
+    routes
+});*/
 
 new Vue({
-  el: '#nav',
-  render: a => a(Nav)
-})
+    el: '#body',
+    /*router,*/
+    components: {WrapBox}
+});
+
+
+/*
 new Vue({
-  el: '#main',
-  render: a => a(Main)
-})
+    el: '#nav',
+    render: a => a(Nav)
+});
+new Vue({
+    el: '#main',
+    render: a => a(Main)
+});
+*/
 

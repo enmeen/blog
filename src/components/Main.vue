@@ -1,5 +1,6 @@
 <template>
     <div id="main">
+
         <div class="main-banner">
             <h1>DESENWORKS</h1>
             <p>The works and workings of Desen.</p>
@@ -12,7 +13,6 @@
     </div>
 </template>
 <script type="text/javascript">
-
 
 export default {
     name: 'main',

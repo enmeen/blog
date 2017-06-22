@@ -24,7 +24,7 @@ var folder = {
 
 
 gulp.task('default',['connect','webpack','watch'], function() {
-  /*c.exec("start http:localhost:8888/dist/index.html");*/
+  c.exec("start http:localhost:8888/dist/index.html");
 });
 
 //run web-server
